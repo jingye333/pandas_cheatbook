@@ -2,6 +2,10 @@
 
 本文基于[Pandas User Guide: Indexing](https://pandas.pydata.org/docs/user_guide/indexing.html)和[Pandas User Guide: Advanced](https://pandas.pydata.org/docs/user_guide/advanced.html)总结而成. 包含的要点有：
 
+- 标签索引`.loc[]`和位置索引`.iloc[]`.
+- Bool索引和`where`/`mask`方法.
+- 多重索引的表示法.
+
 ## 简单索引
 
 对于一个DataFrame，Pandas允许的索引方式有：方括号索引(`[col]`)、属性索引(`.col`)、切片索引(`[m:n]`)、标签索引(`.loc[]`)和位置索引(`.iloc[]`).
